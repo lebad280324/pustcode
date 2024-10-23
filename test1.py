@@ -33,7 +33,7 @@ i = Develomen('long',12,None)
 i.gmai('long','meo')
 print(i.show())
 
-
+print('hello')
 class Manager(Employee):
     def __init__(self,name,age,gmai):
         super().__init__(name,age,gmai)
